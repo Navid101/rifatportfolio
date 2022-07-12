@@ -11,12 +11,12 @@ function MyApp({ Component, pageProps,router }) {
         opacity:0
       },
       pageAnimate:{
-        opacity:1
+        opacity:1,
+        transition:{
+          duration:1.5,
+          ease:[0.6,-0.05,0.01,0.99]
+        }
       },
-      transition:{
-        duration:.8,
-        
-      }
 
     }}>
       <Component {...pageProps} />

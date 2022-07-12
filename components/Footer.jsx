@@ -16,8 +16,8 @@ const Footer = () => {
         },
     ]
   return (
-    <div className='container px-8 m-auto md:space-x-6 mt-6'>
-        <div className="flex flex-col space-y-6 md:space-y-0 items-center md:flex-row md:justify-between">
+    <div className='container px-8 m-auto md:space-x-6 py-8'>
+        <div className="flex flex-col space-y-6 md:space-y-1 items-center md:flex-row md:justify-between">
             {items.map((item,index)=>{
                 return <FooterItem key={index} title={item.title} content={item.content} />
             })}

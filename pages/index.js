@@ -20,8 +20,10 @@ export default function Home() {
           }
           
         }
-      } className="container px-8 m-auto flex justify-center items-center space-x-28">
-        <Image src="/assets/rifat.webp" width="480px" height="480px" className="rounded-full"></Image>
+      } className="container px-8 m-auto flex flex-col items-center space-y-8 md:flex-row md:justify-center md:items-center md:space-x-28 md:space-y-0">
+        <div className="w-1/2 md:w-1/3">
+        <Image src="/assets/rifat.webp" width="480px" height="480px" layout="responsive" className="rounded-full"></Image>
+        </div>
         <Bio/>
       </motion.div>
     </div>

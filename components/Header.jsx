@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
         <div className="bg-lightGray w-full py-4">
-            <div className='flex container px-8 m-auto space-x-6'>
+            <div className='flex container px-8 m-auto md:space-x-6'>
                 <Logo/>
                 <NavContainer/>
             </div>

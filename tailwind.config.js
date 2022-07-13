@@ -13,6 +13,7 @@ module.exports = {
         lightGray:'#f3f3f3'
       }
     },
+    
   },
   plugins: [],
 }

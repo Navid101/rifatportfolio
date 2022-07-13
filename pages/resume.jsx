@@ -53,8 +53,8 @@ const resume = () => {
     }
   ]
   return (
-    <div className='container px-64 m-auto space-y-12 flex flex-col items-center md:items-start py-8 md:py-28'>
-        <p className='text-3xl md:text-5xl font-medium'>Resume</p>
+    <div className='container px-8 lg:px-64 m-auto space-y-12 flex flex-col items-center lg:items-start py-8 lg:py-28'>
+        <p className='text-3xl lg:text-5xl font-medium'>Resume</p>
         {data.map((item,index)=>{
           return (
             <>

@@ -16,9 +16,7 @@ const ResumeContent = ({time,subject,description}) => {
         }else{
             return (
                 <div className="grid grid-cols-1 pt-1">
-
-                        <h1 className='text-center lg:text-left'>{description}</h1>
-
+                    <h1 className='text-center lg:text-left'>{description}</h1>
                 </div>
             )
         }

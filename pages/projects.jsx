@@ -8,6 +8,7 @@ const projects = () => {
         <div className="flex flex-col w-full">
           <ProjectItem/>
         </div>
+        <span className='w-full h-[1px] bg-lightGray'></span>
     </div>
   )
 }

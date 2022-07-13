@@ -21,8 +21,8 @@ const data = [
 const ProjectItem = () => {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
-        {data.map((item)=>{
-            return <ProjectContent title={item.title} description={item.description} image={item.image} url={item.url}/>
+        {data.map((item, index)=>{
+            return <ProjectContent key={index} title={item.title} description={item.description} image={item.image} url={item.url}/>
         })}
     </div>
   )

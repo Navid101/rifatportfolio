@@ -10,7 +10,7 @@ const ContactItem = () => {
   const handleSubmit = (e)=>{
     e.preventDefault()
     setMessage(true)
-    emailjs.sendForm('service_e0yt0zb', 'template_pj3ex6p', formRef.current, 'ys6s4I5Qhrr2CSY_2')
+    emailjs.sendForm('service_9s3i287', 'template_nwf09qo', formRef.current, 'LRJ2r3vEhgzeMO5NL')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

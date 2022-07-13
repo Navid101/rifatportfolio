@@ -1,4 +1,5 @@
 import React from 'react'
+import ResumeItem from '../components/ResumeItem'
 
 const resume = () => {
   const data = [
@@ -52,10 +53,16 @@ const resume = () => {
     }
   ]
   return (
-    <div className='container px-8 md:px-[295px] m-auto space-y-6 flex flex-col items-center md:items-start py-8 md:py-28'>
-        <p className='text-3xl md:text-4xl font-medium'>Resume</p>
-        
-
+    <div className='container px-64 m-auto space-y-12 flex flex-col items-center md:items-start py-8 md:py-28'>
+        <p className='text-3xl md:text-5xl font-medium'>Resume</p>
+        {data.map((item,index)=>{
+          return (
+            <>
+            <ResumeItem key={index} title={item.title} content={item.content}></ResumeItem>
+            <span className='w-full h-[1px] bg-lightGray '></span>
+            </>
+          )
+        })}
     </div>
   )
 }

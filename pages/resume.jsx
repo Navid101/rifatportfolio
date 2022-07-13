@@ -29,7 +29,17 @@ const resume = () => {
         {
           time:'2016 - 2021',
           subject:"Brac University | Bachelor's Degree",
-          description:'Majoring in CIM with Minor In E-business with a CGPA of 3.08.'
+          description:'Majoring in Management Information Systems with Minor In E-business with a CGPA of 3.08.'
+        },
+        {
+          time:'2013 - 2015',
+          subject:"Dhaka commerce College | Higher Secondary School Certificate",
+          description:'Passed HSC with GPA: 4.67'
+        },
+        {
+          time:'2003 - 2013',
+          subject:"Monipur High School & College | Secondary School Certificate",
+          description:'Passed SSC with GPA: 4.44'
         }
 
       ]

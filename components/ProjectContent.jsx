@@ -8,9 +8,9 @@ const ProjectContent = ({title,description, image, url}) => {
         <div className='flex flex-col space-y-6'>
             <h1 className='text-2xl font-medium'>{title}</h1>
             <div className='flex flex-col space-y-2'>
-                {description.split(", ").map((item=>{
-                    return <h1 className='text-lg'>• {item}</h1>
-                }))}
+                {description.split(", ").map((item,index)=>{
+                    return <h1 key={index} className='text-lg'>• {item}</h1>
+                })}
             </div>
         </div>
       )
